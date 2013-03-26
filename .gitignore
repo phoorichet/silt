@@ -1,2 +1,24 @@
-*.out
-*.o
+# executable files
+**.out
+**.o
+**.lo
+**.la
+
+# configure  and auto-generated files
+m4/*
+**.m4
+configure
+config.*
+install-sh
+ltmain.sh
+missing
+stamp-h1
+depcomp
+libtool
+autom4te.cache/
+utils/
+
+
+# Makefile
+**Makefile
+**Makefile.in
